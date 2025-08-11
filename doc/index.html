@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Test Introduction</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-gray-950 to-gray-900 min-h-screen text-gray-100">
+    <div class="max-w-3xl mx-auto py-16 px-6 sm:px-10">
+      <div class="border-b border-gray-800 mb-10 pb-6">
+        <h1 class="text-4xl font-extrabold tracking-tight mb-2 text-center text-white drop-shadow">Technical Test Introduction</h1>
+        <div class="flex flex-col sm:flex-row justify-center gap-4 mt-4 text-center">
+          <a href="https://github.com/asanInc/tech-test-nextjs" target="_blank" class="inline-block text-blue-400 hover:text-blue-300 underline font-medium transition">Front-End Test Repository</a>
+          <a href="https://leetcode.com/problems/merge-intervals/" target="_blank" class="inline-block text-blue-400 hover:text-blue-300 underline font-medium transition">LeetCode: Merge Intervals</a>
+        </div>
+      </div>
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold mb-3 text-white">Overview</h2>
+        <p class="mb-6 text-gray-300">This technical test is divided into two complementary parts:</p>
+  <ol class="list-decimal list-inside space-y-6">
+          <li>
+            <span class="font-semibold">Front-End (Bug Fixing)</span><br />
+            You will find a front-end application with several small bugs to fix. The goal is to assess your ability to:
+            <ul class="list-disc list-inside ml-6 mt-2 text-gray-400 text-base">
+              <li>Identify and solve logic, UI, and usability issues</li>
+              <li>Write clean, readable code with best practices in React/TypeScript</li>
+              <li>Ensure a smooth and stable user experience</li>
+            </ul>
+          </li>
+          <li>
+            <span class="font-semibold">Logic (Merge Intervals)</span><br />
+            The second part aims to test your algorithmic thinking with a common data visualization problem:
+            <div class="bg-gray-800 rounded-lg p-4 mt-3 mb-2 text-base text-gray-200 shadow">
+              <span class="font-semibold">Problem: Merge Intervals — LeetCode</span><br />
+              Implement a function that receives an array of intervals <code>[start, end]</code> and returns a merged version where overlapping intervals are combined.<br />
+              <span class="text-gray-400">This is closely related to real-world front-end scenarios (schedules, timelines, price ranges, availability, etc.).</span>
+            </div>
+          </li>
+        </ol>
+      </section>
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold mb-3 text-white">Objectives & Criteria</h2>
+        <div class="mb-6">
+          <h3 class="font-semibold text-lg mb-1">Front-End</h3>
+          <ul class="list-disc list-inside ml-6 text-gray-400 text-base">
+            <li>Fix all bugs listed in the repository (rendering, state, forms, responsiveness, etc.)</li>
+            <li>Ensure the app is functional and provides a good experience in different scenarios</li>
+            <li>Use proper practices: safe typing, reusable components, error handling, tests (if applicable)</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg mb-1">Merge Intervals</h3>
+          <ul class="list-disc list-inside ml-6 text-gray-400 text-base">
+            <li>Create a pure function (e.g., <code>mergeIntervals(...)</code>) that:</li>
+            <ul class="ml-5">
+              <li>Sorts intervals by start</li>
+              <li>Merges overlaps and contiguous intervals correctly</li>
+              <li>Returns the minimal list of correct intervals</li>
+            </ul>
+            <li>Explain your reasoning and highlight trade-offs (immutability, complexity, edge cases, etc.)</li>
+            <li>Consider cases like empty, reversed, contained, and contiguous intervals</li>
+          </ul>
+        </div>
+      </section>
+      <section class="mb-12">
+        <h2 class="text-2xl font-bold mb-3 text-white">How to Submit</h2>
+        <ol class="list-decimal list-inside ml-6 space-y-2 text-gray-400 text-base">
+          <li>Fork this repository and work freely.</li>
+          <li>For the front-end part:
+            <ul class="list-disc list-inside ml-5">
+              <li>Create a new branch (<code>fix/frontend</code>)</li>
+              <li>Fix the bugs and, if you wish, add tests</li>
+            </ul>
+          </li>
+          <li>For the logic part:
+            <ul class="list-disc list-inside ml-5">
+              <li>Create a new branch (<code>feat/merge-intervals</code>)</li>
+              <li>Add your function file and a brief explanation (comments or auxiliary README)</li>
+            </ul>
+          </li>
+          <li>Open a pull request explaining your choices, challenges, and solutions.</li>
+        </ol>
+      </section>
+      <section>
+        <h2 class="text-2xl font-bold mb-3 text-white">What We Are Evaluating</h2>
+        <div class="overflow-x-auto">
+          <table class="min-w-full bg-gray-800 rounded-lg text-base shadow">
+            <thead>
+              <tr class="text-gray-300 border-b border-gray-700">
+                <th class="py-3 px-5 text-left">Criteria</th>
+                <th class="py-3 px-5 text-left">What We Observe</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-gray-700">
+                <td class="py-3 px-5">Reasoning & Clarity</td>
+                <td class="py-3 px-5">Logical approach, handling of edge cases</td>
+              </tr>
+              <tr class="border-b border-gray-700">
+                <td class="py-3 px-5">Code Quality</td>
+                <td class="py-3 px-5">Readability, consistency, organization</td>
+              </tr>
+              <tr class="border-b border-gray-700">
+                <td class="py-3 px-5">Attention to Experience</td>
+                <td class="py-3 px-5">Functional UI, no visual or logic bugs</td>
+              </tr>
+              <tr class="border-b border-gray-700">
+                <td class="py-3 px-5">Testing & Reliability</td>
+                <td class="py-3 px-5">Minimum coverage of important scenarios</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-5">Understanding Trade-offs</td>
+                <td class="py-3 px-5">Well-founded justifications</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <div class="mt-14 border-t border-gray-800 pt-8 text-center text-gray-400 text-sm tracking-wide">
+        &mdash; Good luck! &mdash;
+      </div>
+    </div>
+  </body>
+</html>
