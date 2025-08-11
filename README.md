@@ -1,3 +1,31 @@
+# Rick and Morty Favorite List — Tech Test
+
+## About
+This technical test aims to evaluate your ability to identify and fix known bugs in a Next.js application using React Query and Zustand. The project is a simple favorite list for Rick and Morty characters, consuming the public API.
+
+## Purpose
+The main goal is to demonstrate that you can:
+- Identify and correct small and large bugs in a real-world codebase
+- Work with Next.js, React Query, Zustand and modern front-end tools
+- Apply best practices in React, TypeScript and UI
+
+## What to do
+- Analyze the code, run the project and navigate through the screens
+- Fix the bugs and issues you find
+- Feel free to suggest improvements in UX, code or architecture
+
+## Stack
+- Next.js (App Router, TypeScript)
+- React Query
+- Zustand
+- Tailwind CSS
+
+## Tips
+- Read the code carefully, including components and the store
+- Test the favorite/unfavorite features
+- Pay attention to runtime errors, warnings and unexpected behaviors
+
+Good luck!
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
